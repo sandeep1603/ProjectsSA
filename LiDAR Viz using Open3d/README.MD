@@ -9,7 +9,9 @@ To run the scripts in this repository, you'll need the following Python librarie
 -open3d: A versatile library for 3D data processing and visualization.
 
 -You can install these libraries using pip with the following command:
-`pip install numpy laspy open3d`
+``` bash 
+pip install numpy laspy open3d 
+```
 ## Code Description
 The code in this repository provides functionality to read LiDAR point cloud data from a LAS file, visualize it in 3D, and apply grayscale coloring to points based on intensity values.
 
@@ -21,13 +23,13 @@ The code in this repository provides functionality to read LiDAR point cloud dat
 ## Usage
 -Clone the repository to your local machine:
 
-`git clone https://github.com/your-username/lidar-point-cloud-visualization.git`
+``` bash git clone https://github.com/your-username/lidar-point-cloud-visualization.git ```
 
-`cd lidar-point-cloud-visualization`
+```bash cd lidar-point-cloud-visualization ```
 
 -Ensure you have the required libraries installed by running:
 
-`pip install numpy laspy open3d`
+``` bash pip install numpy laspy open3d ```
 
 -Modify the script to specify the path to your LAS file:
 
@@ -35,6 +37,6 @@ The code in this repository provides functionality to read LiDAR point cloud dat
 
 -Run the Python script:
 
-`python LiDAR_Viz.py`
+``` bash python LiDAR_Viz.py ```
 
 -The script will display a 3D visualization of the LiDAR point cloud with grayscale colors based on intensity.
