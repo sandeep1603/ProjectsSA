@@ -27,8 +27,12 @@ pip install pandas numpy laspy open3d pydeck
 
 ## Usage
 - Clone the repository to your local machine:
-`git clone https://github.com/your-username/lidar-point-cloud-visualization.git`
-`cd lidar-point-cloud-visualization`
+```bash
+git clone https://github.com/your-username/lidar-point-cloud-visualization.git
+```
+```bash
+cd lidar-point-cloud-visualization
+```
 
 - Run the data processing script to preprocess the LiDAR point cloud data:
 
