@@ -2,7 +2,7 @@
 
 This repository contains three separate Python repositories, each focusing on different aspects of 3D data processing and visualization. Below is a brief overview of each repository and its contents.
 
-## Repository 1: Fisheye Calibration 
+## Fisheye Calibration 
 
 This repository contains Python scripts for fisheye camera calibration and undistortion of fisheye images. It utilizes the OpenCV library for camera calibration and undistortion tasks.
 
@@ -14,7 +14,7 @@ This repository contains Python scripts for fisheye camera calibration and undis
 
 For usage instructions and further details, refer to the repository's README.md.
 
-## Repository 2: LiDAR Viz using Open3D
+## LiDAR Viz using Open3D
 
 This repository contains Python scripts for visualizing LiDAR point cloud data using the Open3D library. It offers tools for processing 3D data and applying grayscale coloring to intensity values.
 
@@ -24,7 +24,7 @@ This repository contains Python scripts for visualizing LiDAR point cloud data u
 
 For usage instructions and further details, refer to the repository's README.md.
 
-## Repository 3: LiDAR Viz using Pydeck
+## LiDAR Viz using Pydeck
 
 This repository contains Python scripts for processing and visualizing LiDAR point cloud data using the Pydeck library. It simplifies the creation of interactive 3D visualizations, making it suitable for exploring large-scale point cloud datasets.
 
