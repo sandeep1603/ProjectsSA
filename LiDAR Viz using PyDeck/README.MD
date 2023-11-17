@@ -15,7 +15,9 @@ To run the scripts in this repository, you'll need the following:
 
 You can install the required Python libraries using pip with the following command:
 
-`pip install pandas numpy laspy open3d pydeck`
+``` bash 
+pip install pandas numpy laspy open3d pydeck 
+```
 
 ## Code Description
 
@@ -30,13 +32,17 @@ You can install the required Python libraries using pip with the following comma
 
 - Run the data processing script to preprocess the LiDAR point cloud data:
 
-`python Preprocessing.py`
+```bash
+python Preprocessing.py
+```
 
 - This will read the LAS file, extract the necessary information, calculate RGB colors based on intensity, and save the modified DataFrame as a CSV file.
 
 - Next, run the visualization script to create an interactive 3D visualization of the downsampled point cloud:
 
-`python Lidar_web.py`
+```bash
+python Lidar_web.py
+```
 
 - This script will read the modified CSV file, downsample the data, and create a Pydeck visualization saved as an HTML file.
 
