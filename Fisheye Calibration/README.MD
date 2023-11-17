@@ -13,7 +13,8 @@ Before running the scripts, make sure you have the following installed:
 You can install these libraries using pip with the following command:
 
 ```bash 
-pip install opencv-python numpy matplotlib```
+pip install opencv-python numpy matplotlib 
+```
 
 ## Fisheye Camera Calibration
 
@@ -28,7 +29,8 @@ How to Use
 - Run the script:
 
 ```bash
-python fisheye_calibration.py```
+python fisheye_calibration.py 
+```
 
 - The script will find the checkerboard corners in the images, perform subpixel refinement, and perform camera calibration to estimate the intrinsic and distortion parameters.
 
@@ -46,7 +48,8 @@ How to Use
 Run the script:
 
 ```bash
-python fisheye_undistortion.py```
+python fisheye_undistortion.py 
+```
 
 - The script will process each image in the specified directory, perform undistortion, and save the undistorted images in a new directory.
 
