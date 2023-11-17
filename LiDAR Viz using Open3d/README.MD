@@ -24,15 +24,18 @@ The code in this repository provides functionality to read LiDAR point cloud dat
 -Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/lidar-point-cloud-visualization.git ```
+git clone https://github.com/your-username/lidar-point-cloud-visualization.git
+```
 
 ```bash 
-cd lidar-point-cloud-visualization ```
+cd lidar-point-cloud-visualization 
+```
 
 -Ensure you have the required libraries installed by running:
 
 ```bash 
-pip install numpy laspy open3d ```
+pip install numpy laspy open3d 
+```
 
 -Modify the script to specify the path to your LAS file:
 
@@ -41,6 +44,7 @@ pip install numpy laspy open3d ```
 -Run the Python script:
 
 ```bash 
-python LiDAR_Viz.py ```
+python LiDAR_Viz.py 
+```
 
 -The script will display a 3D visualization of the LiDAR point cloud with grayscale colors based on intensity.
